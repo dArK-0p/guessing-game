@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #282828;
+  color: #c7c7c7;
+}
+
+button {
+	padding: 1rem;
+	font-size: 1.8rem;
+	font-family: "Roboto", sans-serif;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+	border: 0;
+	border-radius: 5px;
+}
+
+button {
+	background: #de5b49;
+	color: white;
+	transition: transform 200ms ease-in;
+	margin-left: 0.1rem;
+}
+
+button:hover {
+	background: #324d5c;
+	transition: all 200ms ease-in-out;
+}
+
+button:active {
+	background: #253740;
+	transform: scale(0.95);
+}
